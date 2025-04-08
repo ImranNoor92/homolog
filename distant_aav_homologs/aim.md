@@ -70,5 +70,31 @@ Develop and test a set of **≥20 engineered AAV capsid variants** that incorpor
 
 ---
 
+
+Raw Text 
+Specific Aim 1: 
+Design and test candidates from capsid protein homologs known to form T=3
+capsids. The capsid proteins in AAV and viruses in the Parvoviridae family share a protein fold (the jelly roll
+fold) with viruses that form T=3 capsids. Some of these distant relatives have been observed to transition
+from T=1 to T=3 capsids. We will use structural homology to incorporate amino acid mutations in the AAV
+capsid protein to favor the formation of T=3 capsid. We will computationally design at least 200 capsid protein
+variants. We will apply the classical nucleation theory of virus capsids to identify the protein variants predicted
+to favor T=3 architectures over T=1 capsids. We will then apply transient dynamics theory to narrow down the
+candidates that assemble the T=3 capsids efficiently within expected cellular timescales. Finally, we will apply
+coarse-grained molecular dynamics to assess the stability of the top candidates. We will select for validation
+at least 20 capsid protein variants among those more likely to form T=3 capsids theoretically. The vectors
+produced will be screened for capsid size, titer, genomic packing, and infectivity. The priority will be identifying
+vectors forming capsid sizes around 40 nm.
+
+
+Specific Aim 2: 
+Design and test candidates mining uncultured viral genomes bioinformatically.
+T=3 capsids have not been observed among isolates of AAV variants or viruses in the Parvoviridae family,
+but they could exist among uncultured viruses. To this end, we will mine uncultured viral genomes
+bioinformatically to identify capsid proteins among unusually large genomes of parvoviruses that could form
+T=3 capsids naturally. The proteins will be folded bioinformatically. Sequence and structural homology will be
+used to introduce mutations in the AAV capsid for candidates forming T=3 capsids. We will then apply the
+same biophysical selection methods and empirical validation strategy described in Specific Aim 1.
+
 This README captures the scope, rationale, and detailed plan of execution for Specific Aim 2 and will guide both computational and experimental phases of candidate development.
 
