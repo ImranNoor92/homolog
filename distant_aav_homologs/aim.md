@@ -71,9 +71,9 @@ Develop and test a set of **≥20 engineered AAV capsid variants** that incorpor
 ---
 
 
-##Raw Text
+## **Raw Text**
 
-##Specific Aim 1: 
+## **Specific Aim 1:**
 Design and test candidates from capsid protein homologs known to form T=3
 capsids. The capsid proteins in AAV and viruses in the Parvoviridae family share a protein fold (the jelly roll
 fold) with viruses that form T=3 capsids. Some of these distant relatives have been observed to transition
@@ -88,7 +88,7 @@ produced will be screened for capsid size, titer, genomic packing, and infectivi
 vectors forming capsid sizes around 40 nm.
 
 
-##Specific Aim 2: 
+## **Specific Aim 2:**
 Design and test candidates mining uncultured viral genomes bioinformatically.
 T=3 capsids have not been observed among isolates of AAV variants or viruses in the Parvoviridae family,
 but they could exist among uncultured viruses. To this end, we will mine uncultured viral genomes
