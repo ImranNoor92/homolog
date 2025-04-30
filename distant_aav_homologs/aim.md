@@ -63,6 +63,34 @@ This workflow outlines the computational and structural bioinformatics steps req
 
 ---
 
+## 🔮 Step 3: Identify Jelly Roll Fold (JRF) Proteins from ORFs
+
+### 3.1 Annotate ORFs Using HMMER and Pfam
+#### 3.1.1 Download and Prepare Pfam HMM Database
+- Download Pfam-A:
+  ```bash
+  wget ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz
+  gunzip Pfam-A.hmm.gz
+  hmmpress Pfam-A.hmm
+  ```
+
+#### 3.1.2 Run hmmscan
+- Command:
+  ```bash
+  hmmscan --domtblout pfam_hits.out Pfam-A.hmm output_proteins.faa
+  ```
+- Output: `pfam_hits.out` contains matches to Pfam domains.
+
+#### 3.1.3 Filter for Jelly Roll Fold Domains
+- Search for Pfam domains associated with **single jelly roll** (e.g., PF00729, PF00910).
+- Retain:
+  - ORFs that match JRF domains.
+  - Genomes containing at least one such ORF.
+
+---
+
+---
+
 ## 🧠 Step 3: Structure Prediction and Trimer Modeling
 
 ### 3.1 Extract and Format Protein Sequences
